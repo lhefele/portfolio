@@ -1,5 +1,5 @@
 ---
-title: "Another post blog"
+title: "My second post"
 description: |
   A short description of the post.
 author:
@@ -20,4 +20,4 @@ Distill is a publication format for scientific and technical writing, native to 
 
 Learn more about using Distill at <https://rstudio.github.io/distill>.
 
-AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
