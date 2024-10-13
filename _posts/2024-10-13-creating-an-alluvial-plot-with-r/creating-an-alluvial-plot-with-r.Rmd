@@ -1,0 +1,137 @@
+---
+title: "Creating an alluvial plot with R"
+author:
+  - name: Lisa Hefele
+    url: {}
+date: 2024-06-25
+categories: ["Data visualization"]
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+
+
+## Step 1: Laod necessary packages
+
+
+```{r echo=TRUE}
+
+library(ggplot2)
+library(ggalluvial)
+library(dplyr)
+
+```
+
+
+
+
+
+## Step 2: Create a fictional dataset
+
+This dataset now reflects a situation where participants from lower wealth and less educated backgrounds are less likely to be vaccinated. It is completely fictional.
+
+
+```{r create example data, echo=TRUE}
+set.seed(123)  # For reproducibility
+
+# Simulate a dataset
+n <- 1000  # Number of participants
+
+# Wealth categories (lower wealth indices are less likely to be vaccinated)
+wealth <- factor(sample(c("Low", "Medium", "High"), n, replace = TRUE, prob = c(0.5, 0.3, 0.2)))
+
+# Mother's education levels (less educated mothers are less likely to vaccinate)
+education <- factor(sample(c("No Education", "Primary", "Secondary"), n, replace = TRUE, 
+                           prob = c(0.5, 0.3, 0.2)))
+
+# Region is randomly assigned for now
+region <- factor(sample(c("North", "South", "Central"), n, replace = TRUE))
+
+# Antenatal care visits (a binary factor)
+antenatal_care <- factor(sample(c("Yes", "No"), n, replace = TRUE))
+
+# Define a probability of vaccination based on wealth and education
+vaccination_prob <- ifelse(wealth == "Low" & education == "No Education", 0.2,  # Low wealth and no education
+                   ifelse(wealth == "Low" & education == "Primary", 0.3,       # Low wealth and primary education
+                   ifelse(wealth == "Medium" & education == "No Education", 0.4, # Medium wealth and no education
+                   ifelse(wealth == "Medium" & education == "Primary", 0.6,    # Medium wealth and primary education
+                   ifelse(wealth == "High" & education == "No Education", 0.6, # High wealth and no education
+                   0.8)))))  # Higher probability for other combinations
+
+# Simulate vaccination status based on probability
+vaccinated <- factor(rbinom(n, 1, vaccination_prob), labels = c("No", "Yes"))
+
+# Combine into a data frame
+df <- data.frame(wealth, education, region, antenatal_care, vaccinated)
+
+# View the first few rows of the dataset
+head(df)
+
+
+```
+
+
+
+## Step 3: reshape the data 
+
+```{r reshape data, echo=TRUE}
+# Group by the demographic variables and count occurrences
+df_alluvial <- df %>%
+  count(wealth, education, region, antenatal_care, vaccinated)
+
+# View the data to make sure it's correct
+head(df_alluvial)
+
+```
+
+
+
+
+## Step 4: Create an alluvial plot
+
+In an alluvial plot, each "stratum" represents a category of a variable, and the "flows" represent how individuals move between these categories. Here is an example of how to make the plot:
+
+```{r create alluvial plot, echo=TRUE}
+
+# Create the alluvial plot
+df_alluvial %>% 
+  ggplot(aes(axis1 = wealth, axis2 = education, axis3 = region, axis4 = antenatal_care, y = n)) +
+  geom_alluvium(aes(fill = vaccinated), width = 0.2) +  # Moved 'fill' inside aes()
+  geom_stratum(width = 0.2, fill = "lightgrey", color = "black") +
+  geom_text(stat = "stratum", aes(label = after_stat(stratum))) +
+  scale_x_discrete(limits = c("Wealth", "Education", "Region", "Antenatal Care"), expand = c(0.15, 0.05)) +
+  labs(title = "Alluvial diagram of vaccination status",
+       y = "Number of participants",
+       x = "Demographic variables") +
+  theme_minimal()
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
