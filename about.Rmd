@@ -17,6 +17,11 @@ output:
   
 ---
 
+<style>
+  body {
+    font-family: "Segoe UI", sans-serif !important;
+  }
+</style>
 
 
  
@@ -51,7 +56,7 @@ Heidelberg University, Germany
 
 **B.Sc. Biology** | 2013
 
-University of Erlangen-Nuremberg
+University of Erlangen-Nuremberg, Germany
 
 
 

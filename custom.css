@@ -1,5 +1,6 @@
+/* Apply Segoe UI to the entire website */
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
   font-size: 14px;
   line-height: 1.6em;
 }
