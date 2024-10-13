@@ -13,14 +13,14 @@ links:
     url: "https://orcid.org/0000-0001-5449-9503"
 output:
   postcards::trestles:
-    css: custom.css
+    css: "custom.css"
   
 ---
 
 
 
  
-## Bio
+## About me
 
 I am a postdoctoral fellow with expertise in infectious disease research, specializing in vaccine-preventable diseases. I have extensive experience in designing and implementing studies in challenging settings, particularly in low- and middle-income countries. My skills include conducting complex analyses of epidemiological, survey and laboratory data, which contribute to the preparation of comprehensive reports and impactful scientific publications. I am dedicated to advancing public health through evidence-based research.
 
