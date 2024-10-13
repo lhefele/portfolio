@@ -9,10 +9,10 @@
     },
     {
       "path": "index.html",
-      "title": "Lisa Hefele",
+      "title": "Posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-10-13T21:04:46+02:00"
+      "last_modified": "2024-10-13T21:11:51+02:00"
     }
   ],
   "collections": ["posts/posts.json"]
