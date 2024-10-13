@@ -1,0 +1,174 @@
+---
+title: "Creating Interactive Maps in R with Tmap"
+author:
+  - name: Lisa Hefele
+    url: {}
+date: 2024-08-31
+categories: ["Data visualization"]
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+In this tutorial, we will walk through how to create an interactive map of Laos and its neighboring countries using the **tmap** package in R. **Tmap** is a powerful tool for both static and interactive thematic maps. By the end of this tutorial, you will have a map you can zoom in and out of, showing Laos and its neighbors. 
+
+## Step 1: Install and load necessary packages
+
+First, we need to load the necessary libraries. We will use `tmap` for creating the map, `sf` for handling spatial data, and `rnaturalearth` to get country boundary data.
+
+```{r echo=TRUE}
+# Install required packages if not already installed
+# install.packages(c("tmap", "tmaptools", "sf", "rnaturalearth"))
+
+# Load the libraries
+library(tmap)
+library(tmaptools)
+library(sf)
+library(rnaturalearthdata)
+
+```
+
+
+The **sf** package is a widely-used tool for handling geographic data in R, while **tmap** allows us to create both static and interactive maps. Finally, we’ll use **rnaturalearth** to easily access Natural Earth’s open country boundary dataset.
+
+
+
+## Step 2: Obtain the country boundaries
+
+Next, we will download and prepare the spatial data for the countries in our region of interest. The **rnaturalearth** package lets us pull country boundary data at different scales. For this tutorial, we'll use the "medium" scale for a good balance between detail and file size.
+
+
+```{r echo=TRUE}
+
+# Obtain the country boundaries
+# We will use rnaturalearth to download country boundary data
+countries <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
+
+```
+
+
+Here, the function ne_countries() fetches the spatial data for all the countries in the world.
+
+
+
+## Step 3: Filter for Laos and the neighboring countries
+
+We now need to focus on Laos and its neighboring countries. We will use the **dplyr**-like syntax provided by sf to filter out only the countries of interest: Laos, Vietnam, Thailand, Cambodia, China, and Myanmar.
+
+
+```{r echo=TRUE}
+
+# Filter for Laos and its neighboring countries
+# Define a vector of countries of interest
+countries_of_interest <- c("Laos", "Vietnam", "Thailand", "Cambodia", "China", "Myanmar")
+
+# Filter the data to keep only those countries
+laos_neighbors <- countries[countries$name %in% countries_of_interest, ]
+
+```
+
+
+By filtering the country boundaries data, we create a new dataset that contains only the geographic shapes of Laos and its neighbors. This keeps our map focused and less cluttered.
+
+
+
+
+
+## Step 4: Create an interactive map
+
+Now it is time to build the interactive map! **Tmap** allows us to switch between static and interactive modes with tmap_mode(). By setting the mode to "view", we can make the map interactive.
+
+
+```{r echo=TRUE}
+
+# Create the interactive map
+# Set tmap mode to view (for interactive maps)
+tmap_mode("view")
+
+# Create the map with tmap
+tm_shape(laos_neighbors) + 
+  tm_polygons("name", border.col = "black", lwd = 2) +  # Draw country borders
+  tm_text("name", size = 0.7, col = "darkblue", auto.placement = TRUE) +  # Add country names
+  tm_style("classic") +  # Use a classic map style
+  tm_basemap("OpenStreetMap")  # Use OpenStreetMap as the background
+
+
+```
+
+
+Here’s what happens in this step:
+
+ - tm_shape() specifies the geographic data we want to map (in this case, the countries of interest).
+ - tm_polygons() draws the polygons representing country borders and fills them.
+ - tm_text() adds country names directly on the map.
+ - tm_style() allows us to style the map. We use the "classic" style here.
+ - tm_basemap() adds an OpenStreetMap layer as the map background to give context and details to the geographic features.
+
+
+
+## Step 5: Switching back to plot mode
+
+When working with multiple maps, it is useful to switch back to plot mode (for static maps) after you create an interactive map. This prevents other maps from being rendered interactively by default.
+
+
+```{r echo=TRUE}
+
+# Switch back to plot mode after the interactive map
+tmap_mode("plot")
+
+```
+
+
+## Conclusion
+
+With just a few lines of code, you can create an interactive map of Laos and its neighboring countries, giving you a dynamic tool for exploring geographic data. This method can be extended to any region or customized with additional layers, such as demographic or health data.
+
+Now you can experiment with different basemaps or country selections to fit your own data visualization needs!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
