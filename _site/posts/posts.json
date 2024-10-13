@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/2024-05-05-mcv-cov/",
-    "title": "Measles vaccination coverage in the Lao PDR",
-    "description": {},
-    "author": [
-      {
-        "name": "Lisa Hefele",
-        "url": {}
-      }
-    ],
-    "date": "2024-08-30",
-    "categories": [],
-    "contents": "\r\nMeasles vaccination coverage\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2024-10-13T13:36:52+02:00",
-    "input_file": "mcv-cov.knit.md"
-  },
-  {
     "path": "posts/2024-05-05-paper-hcv/",
     "title": "High exposure to hepatitis C virus in Saravan, southern Laos: Identification of several risk practices",
     "description": {},
@@ -54,40 +37,6 @@
     "contents": "\r\nHighlights\r\nThis study uses data from the most recent multiple indicator cluster survey (MICS) which is designed to provide comprehensive data on child and maternal health. The data is nationally representative. We provide relevant information regarding hepatitis B vaccination coverage rates in Laos in children under two years of age and investigated demographic and socioeconomic factors that affect hepatitis B vaccination coverage rates.\r\nFor more details, you can access the full paper here.\r\nThe code supporting the article can be found here.\r\n\r\n\r\n\r\nFigure 1: Estimated hepatitis B vaccination coverage in Laos (weighted proportions) among children. For the combination vaccines in 2011/12, we did not distinguish between the numbers of doses received. The map was created in R (see supplement information). The shapefiles containing the administrative boundaries of Lao PDR from 2012 were obtained from the International Steering Committee for Global Mapping (retrieved from https://maps.princeton.edu/catalog/stanford-cp768st2071). The shapefiles containing the administrative boundaries of the Laos in 2017 were obtained from the Humanitarian Data Exchange website (https://data.humdata.org/dataset/lao-admin-boundaries, dataset provided by the National Geographic Department of Lao PDR, 2019). Projection used: EPSG 4326 –WGS 84. Reprinted with permission from Dekker et al., 2024\r\n\r\n\r\n\r\nAbstract\r\nBackground\r\nWithin Laos, the vaccination coverage rates with the monovalent hepatitis B birth dose vaccine and hepatitis B antigen-containing combination vaccines remain stagnant with 75% and 64%, respectively, in 2021. In this study, we used data from the Multiple Indicator Cluster Surveys to identify possible factors that represent barriers for receiving these childhood vaccinations.\r\nMethods\r\nData from the Multiple Indicator Cluster Surveys in 2011/12 and 2017 were analysed to examine factors associated with receiving the hepatitis B-containing vaccines using regression modelling. Data analyses were conducted in R.\r\nFindings\r\nIn 2011/12, the weight-adjusted coverage rate for receiving the hepatitis B birth dose was 48%, while the coverage with the hepatitis B antigen-containing combination vaccine was 55.1% based on both vaccination documents and recall; compared to 69.3% and 59.4% respectively in 2017. Ethno-linguistic group, maternal education, healthcare utilization and wealth were associated with receiving the vaccinations against hepatitis B.\r\nInterpretation\r\nNational estimates of vaccination coverage rates can conceal country-specific regional or socio-economic variations. Children from Hmong-Mien households, from less wealthier households and whose mothers were less educated and were not able to or did not utilize healthcare were identified as being less likely to receive the vaccinations. These findings indicate the need for improving access to healthcare, in particular for minority groups.\r\n\r\n\r\n\r\n",
     "preview": "posts/2024-05-05-paper-mics/map-hepb-vac.jpg",
     "last_modified": "2024-10-13T11:43:28+02:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/2024-05-05-the-fourth-post/",
-    "title": "The fourth post",
-    "description": "A short description of the post.",
-    "author": [
-      {
-        "name": "Lisa Hefele",
-        "url": "https://example.com/norajones"
-      }
-    ],
-    "date": "2024-05-05",
-    "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2024-05-05T18:33:34+02:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/welcome/",
-    "title": "Welcome to my_new_blog",
-    "description": "Welcome to our new blog, my_new_blog. We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Lisa Hefele",
-        "url": "https://example.com/norajones"
-      }
-    ],
-    "date": "2024-05-05",
-    "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2024-05-05T18:17:51+02:00",
     "input_file": {}
   }
 ]
