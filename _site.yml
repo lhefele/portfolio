@@ -1,7 +1,7 @@
-name: "my_blog"
+name: "portfolio"
 title: "Lisa Hefele"
 description: |
-  my_new_blog
+  Lisa Hefele
 output_dir: "_site"
 navbar:
   right:
