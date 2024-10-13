@@ -34,29 +34,56 @@ My research interests encompass infectious diseases, epidemiological methods, im
 
 
 
-## Education
+### Education
 
 
-**Postgraduate Certificate ‑ Epidemiology** | ongoing
-
+**Postgraduate Certificate ‑ Epidemiology** | ongoing<br>
 London School of Hygiene and Tropical Medicine, UK
 
 
-**Ph.D. in Natural Sciences (Dr. rer. nat.)** | 2016-2020, date of defense: 28.04.2022
-
-Luxembourg Institute of Health, Luxembourg | Saarland University, Germany
-
+**Ph.D. in Natural Sciences (Dr. rer. nat.)** | 2016-2020, date of defense: 28.04.2022<br>
+Luxembourg Institute of Health, Luxembourg | Saarland University, Germany<br>
 Thesis: _Epidemiological and serological investigations of vaccine‑preventable diseases and their implications for vaccination policy in the Lao People’s Democratic Republic_
 
 
-**M.Sc. Molecular Biosciences ‑ Infectious diseases** | 2016
-
+**M.Sc. Molecular Biosciences ‑ Infectious diseases** | 2016<br>
 Heidelberg University, Germany
 
 
-**B.Sc. Biology** | 2013
-
+**B.Sc. Biology** | 2013 <br>
 University of Erlangen-Nuremberg, Germany
+
+
+
+### Research skills
+ - Epidemiological study design
+ - Project management
+ - Reproducible research
+ - Scientific writing 
+ - Science communication
+ - Digital data collection (REDCap, Kobotoolbox)
+ 
+ 
+### Data analysis techniques
+ - Exploratory data analysis
+ - Logistic regression 
+ - Mixed models
+ - Survival analysis
+ - Longitudinal data analysis
+ - Censored data
+ - Data visualization
+
+
+### Technical skills
+ - R (advanced, 7+ years)
+ - Github (intermediate)
+ - Stata (intermediate)
+ - QGIS (intermediate)
+ 
+ 
+ 
+ 
+
 
 
 
