@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2024-05-05-another-post-blog/",
+    "title": "Tmaps",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Lisa Hefele",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2024-05-05",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-10-13T10:16:48+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2024-05-05-post-nr-3/",
     "title": "Post nr 3",
     "description": "A short description of the post.",
@@ -66,22 +83,5 @@
     "preview": {},
     "last_modified": "2024-05-05T18:17:51+02:00",
     "input_file": {}
-  },
-  {
-    "path": "posts/2024-05-05-another-post-blog/",
-    "title": "Tmaps",
-    "description": "A short description of the post.",
-    "author": [
-      {
-        "name": "Lisa Hefele",
-        "url": "https://example.com/norajones"
-      }
-    ],
-    "date": "2024-05-05",
-    "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\nAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2024-10-13T10:16:48+02:00",
-    "input_file": "another-post.knit.md"
   }
 ]
