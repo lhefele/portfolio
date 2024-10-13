@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-## Hepatitis C Virus (HCV) Risk Factors Study in Southern Laos
+## Hepatitis C Virus risk factors study in Southern Laos
 
 In a follow-up study conducted in Samuoi district, Saravan province, southern Laos, we investigated the prevalence and risk factors of hepatitis C virus (HCV) infection. Our findings revealed a high seropositivity rate, with 39.8% of participants testing positive for HCV antibodies. Notably, non-sterile medical practices, including the use of re-used syringes (72.5%) and unlicensed parenteral treatments (58%), were common. Tattoos and accidental blood exposure were significantly associated with HCV infection. This study underscores the urgent need for community-wide HCV testing and awareness campaigns to reduce transmission risks. Further viral sequencing is ongoing to enhance our understanding of HCV epidemiology in the region.
 
@@ -26,6 +26,44 @@ For more details, you can access the full paper [here](https://www.thelancet.com
 
 
 
+
+```{r prep map, echo=FALSE, message=FALSE, warning=FALSE, results='hide', out.width="100%", fig.cap="Map highlighting the district of Samuoi."}
+
+# Load necessary libraries
+library(sf)
+library(tmap)
+
+# Read shapefiles (adjust the file paths)
+country <- suppressWarnings(st_read("lao_adm_ngd_20191112_SHP/lao_admbnda_adm0_ngd_20191112.shp"))
+province <- suppressWarnings(st_read("lao_adm_ngd_20191112_SHP/lao_admbnda_adm1_ngd_20191112.shp"))
+districts <- suppressWarnings(st_read("lao_adm_ngd_20191112_SHP/lao_admbnda_adm2_ngd_20191112.shp"))
+
+# Filter the district you want to highlight
+highlighted_district <- districts[districts$ADM2_EN == "Samuoi", ]
+
+
+```
+
+```{r map, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", fig.cap="Map highlighting the district of Samuoi."}
+
+# Create a tmap object
+map <- tm_shape(country) + 
+  tm_borders() + 
+  tm_shape(province) + 
+  tm_borders(lwd = 1.5, col = "cornflowerblue") +  # Province borders
+  tm_shape(districts) + 
+  tm_borders(lwd = 0.5, col = "azure4") +  # District borders
+  tm_shape(highlighted_district) + 
+  tm_fill(col = "darkmagenta", alpha = 0.7) +   # Highlight specific district
+  tm_borders(lwd = 2, col = "darkorchid4") +  # Border around the highlighted district
+  tm_layout(legend.outside = TRUE)
+
+# View the map
+tmap_mode("view")  # Interactive mode
+map
+
+
+```
 
 
 
