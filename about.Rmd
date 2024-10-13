@@ -1,6 +1,6 @@
 ---
 name: " "
-title: "About"
+title: "Lisa Hefele"
 image: "_44A0859.jpg"
 links:
   - label: LinkedIn
