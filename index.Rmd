@@ -1,5 +1,5 @@
 ---
-title: "my_new_blog"
+title: "Lisa Hefele"
 site: distill::distill_website
 listing: posts
 ---
