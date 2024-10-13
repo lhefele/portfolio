@@ -1,5 +1,5 @@
 ---
-title: "Creating Interactive Maps in R with Tmap"
+title: "Creating interactive maps in R with tmap"
 author:
   - name: Lisa Hefele
     url: {}
