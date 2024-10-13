@@ -1,14 +1,15 @@
 name: "portfolio"
 title: "Lisa Hefele"
-description: |
-  Lisa Hefele
-output_dir: "_site"
+output: distill::distill_article
+
+
+
 navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Publications"
-      href: "https://orcid.org/0000-0001-5449-9503"
     - text: "About"
       href: about.html
-output: distill::distill_article
+
+
+

@@ -1,6 +1,6 @@
 ---
 name: " "
-title: "Lisa Hefele"
+title: "About"
 image: "_44A0859.jpg"
 links:
   - label: LinkedIn
@@ -16,6 +16,9 @@ output:
     css: custom.css
   
 ---
+
+
+
  
 ## Bio
 
