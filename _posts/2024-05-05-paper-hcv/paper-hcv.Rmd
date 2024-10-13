@@ -1,0 +1,37 @@
+---
+title: "High exposure to hepatitis C virus in Saravan, southern Laos: Identification of several risk practices"
+
+author:
+  - name: Lisa Hefele
+    url: 
+date: 2024-05-05
+categories: ["Research", "Publications"]
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+## Hepatitis C Virus (HCV) Risk Factors Study in Southern Laos
+
+In a follow-up study conducted in Samuoi district, Saravan province, southern Laos, we investigated the prevalence and risk factors of hepatitis C virus (HCV) infection. Our findings revealed a high seropositivity rate, with 39.8% of participants testing positive for HCV antibodies. Notably, non-sterile medical practices, including the use of re-used syringes (72.5%) and unlicensed parenteral treatments (58%), were common. Tattoos and accidental blood exposure were significantly associated with HCV infection. This study underscores the urgent need for community-wide HCV testing and awareness campaigns to reduce transmission risks. Further viral sequencing is ongoing to enhance our understanding of HCV epidemiology in the region.
+
+For more details, you can access the full paper [here](https://www.thelancet.com/journals/lanwpc/article/PIIS2666-6065(22)00247-4/fulltext).
+
+
+
+
+
+
+
+
+
+
+
+
