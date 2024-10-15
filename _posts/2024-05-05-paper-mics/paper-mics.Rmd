@@ -28,6 +28,7 @@ The code supporting the article can be found [here](https://github.com/lhefele/l
 
 
 ```{r fig-example, echo=FALSE, out.width="100%", fig.cap="Estimated hepatitis B vaccination coverage in Laos (weighted proportions) among children. For the combination vaccines in 2011/12, we did not distinguish between the numbers of doses received. The map was created in R (see supplement information). The shapefiles containing the administrative boundaries of Lao PDR from 2012 were obtained from the International Steering Committee for Global Mapping (retrieved from https://maps.princeton.edu/catalog/stanford-cp768st2071). The shapefiles containing the administrative boundaries of the Laos in 2017 were obtained from the Humanitarian Data Exchange website (https://data.humdata.org/dataset/lao-admin-boundaries, dataset provided by the National Geographic Department of Lao PDR, 2019). Projection used: EPSG 4326 –WGS 84. Reprinted with permission from Dekker et al., 2024"}
+
 knitr::include_graphics("map-hepb-vac.jpg")
 ```
 
