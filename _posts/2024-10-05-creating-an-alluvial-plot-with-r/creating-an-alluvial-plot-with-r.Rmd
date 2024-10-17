@@ -37,7 +37,7 @@ library(dplyr)
 
 ## Step 2: Create a fictional dataset
 
-This dataset now reflects a situation where participants from lower wealth and less educated backgrounds are less likely to be vaccinated. It is completely fictional.
+This dataset reflects a situation where participants from lower wealth and less educated backgrounds are less likely to be vaccinated. It is completely fictional.
 
 
 ```{r create example data, echo=TRUE}
@@ -106,7 +106,7 @@ In an alluvial plot, each "stratum" represents a category of a variable, and the
 df_alluvial %>% 
   ggplot(aes(axis1 = wealth, axis2 = education, axis3 = region, axis4 = antenatal_care, y = n)) +
   geom_alluvium(aes(fill = vaccinated), width = 0.2) +  # Moved 'fill' inside aes()
-  geom_stratum(width = 0.2, fill = "lightgrey", color = "black") +
+  geom_stratum(width = 0.4, fill = "white", color = "black") +
   geom_text(stat = "stratum", aes(label = after_stat(stratum))) +
   scale_x_discrete(limits = c("Wealth", "Education", "Region", "Antenatal Care"), expand = c(0.15, 0.05)) +
   labs(title = "Alluvial diagram of vaccination status",
