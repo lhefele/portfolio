@@ -38,3 +38,8 @@ Whether you are a researcher, student, or professional, having a system to manag
 ## How can it look like in practice?
 
 
+```{r fig-obsidian, echo=FALSE, out.width="100%", fig.cap="The graphical view of Obsidian"}
+
+knitr::include_graphics("obsidian.jpg")
+
+```
