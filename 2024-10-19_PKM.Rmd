@@ -1,0 +1,40 @@
+---
+title: "Personal Knowledge Management for Beginners"
+author:
+  - name: Lisa Hefele
+    url: {}
+date: 2024-10-19
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+# Personal Knowledge Management for Beginners
+
+Whether you are a researcher, student, or professional, having a system to manage the flood of information can transform how you work and learn. Enter **Personal Knowledge Management (PKM)**, a strategy designed to help you do just that.
+
+
+
+## What is Personal Knowledge Management?
+
+
+
+## Why Should You Care About PKM?
+
+
+
+
+## How Can PKM Help You Become a Better Researcher?
+
+
+
+
+## Getting Started with PKM
+
+
+
+
+## How can it look like in practice?
+
+

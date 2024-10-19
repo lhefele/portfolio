@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "path": "2024-10-19_PKM.html",
+      "title": "Personal Knowledge Management for Beginners",
+      "author": [
+        {
+          "name": "Lisa Hefele",
+          "url": {}
+        }
+      ],
+      "date": "2024-10-19",
+      "contents": "\r\nPersonal Knowledge Management for Beginners\r\nWhether you are a researcher, student, or professional, having a system to manage the flood of information can transform how you work and learn. Enter Personal Knowledge Management (PKM), a strategy designed to help you do just that.\r\nWhat is Personal Knowledge Management?\r\nWhy Should You Care About PKM?\r\nHow Can PKM Help You Become a Better Researcher?\r\nGetting Started with PKM\r\nHow can it look like in practice?\r\n\r\n\r\n\r\n",
+      "last_modified": "2024-10-19T22:36:00+02:00"
+    },
+    {
       "path": "about.html",
       "title": "Lisa Hefele",
       "author": [],
