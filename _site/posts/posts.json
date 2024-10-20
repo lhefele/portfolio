@@ -107,10 +107,13 @@
       }
     ],
     "date": "2024-05-05",
-    "categories": [],
+    "categories": [
+      "Research",
+      "Publications"
+    ],
     "contents": "\r\nEnteric fever, caused by Salmonella enterica serovars Typhi and Paratyphi A, is a significant public health issue, especially in low- and middle-income countries. However, current diagnostic methods often underestimate its true burden. In our latest study, we aimed to explore whether tracking the body’s immune response to specific bacterial antigens could help improve how we measure the incidence of enteric fever.\r\nWhat We Did\r\nWe collected plasma samples from patients who were confirmed to have enteric fever via blood cultures, along with febrile patients who tested negative for blood cultures and a group of healthy community members. Using a carefully selected panel of 17 antigens, we measured the antibody responses over three months through ELISA tests.\r\nWhat We Found\r\nInterestingly, the immune responses (antibody levels) were mostly similar between all groups for most of the antigens. However, we identified a few key differences:\r\n- Patients with confirmed enteric fever showed elevated IgG responses to certain antigens (STY1479/YncE, STY1886/CdtB, STY1498/HlyE, and serovar-specific O2 and O9 antigens) over time compared to controls. This suggested seroconversion, a strong sign of exposure to the disease.\r\n\r\n\r\n\r\nFigure 1: The longitudinal IgG responses against Salmonella Typhi or S. Paratyphi A purified antigens in a Nepali cohort of febrile patients. IgG antibody responses against O2 (A), O9 (B), STY1498 (C), Vi (D), STY1479 (E), and STY1886 (F) over the course of 3 months in different patient groups. Grey lines show antibody trajectories in individual patients and the solid bold line shows the fitted LOESS smooth function. Dashed lines represent the mean titer value within the control group of afebrile, community control samples for the respective antibody. Abbreviations: ELISA, enzyme-linked immunosorbent assay; FCN, culture negative febrile patients; IgG, immunoglobulin G; SPA, S. Paratyphi A confirmed patients; ST, S. Typhi-confirmed patients.. Reprinted with permission from Mylona et al., 2024\r\n\r\n\r\n\r\nWhy It Matters\r\nThese findings are exciting because they point to a potential set of antigens that could be used to improve enteric fever surveillance. By developing more sensitive and scalable methods, we can better monitor the spread of enteric fever, which could ultimately guide vaccine policies and public health interventions.\r\nOur study highlights the importance of continued research into identifying reliable biomarkers for infectious diseases like enteric fever, as it has the potential to lead to more accurate and widespread detection methods.\r\nFor more details, you can access the full paper here.\r\n\r\n\r\n\r\n",
     "preview": "posts/2024-05-05-paper-typhoid-fever/longitudinal-tf.jpg",
-    "last_modified": "2024-10-15T20:36:39+02:00",
-    "input_file": {}
+    "last_modified": "2024-10-20T11:51:40+02:00",
+    "input_file": "typhoid-fever.knit.md"
   }
 ]
