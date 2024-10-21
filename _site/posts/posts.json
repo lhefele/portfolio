@@ -3,69 +3,49 @@
     "path": "posts/2024-10-19-pkm/",
     "title": "Personal Knowledge Management for beginners",
     "description": {},
-    "author": [
-      {
-        "name": "Lisa Hefele",
-        "url": {}
-      }
-    ],
+    "author": [],
     "date": "2024-10-19",
     "categories": [
       "Knowledge management"
     ],
     "contents": "\r\nPersonal knowledge management for beginners\r\nWhether you are a researcher, a student or a professional, having a system to manage the flood of information can transform how you work and learn. Here are some tips on how to develop your own Personal Knowledge Management (PKM).\r\nWhat is personal knowledge management?\r\nPersonal knowledge management (PKM), also known as individual knowledge management, is a self-management concept aimed at organizing your own knowledge resources and learning processes independently and skillfully. The goal is to use this information effectively, whether it is for personal growth or professional tasks. Think of it as a personalized system that helps you stay on top of what you have read and learned.\r\nTypically, PKM consists of:\r\nCollection: Gathering useful information from articles, books, conversations, or other media.\r\nOrganization: Structuring this information in a way that makes sense to you—whether through apps, handwritten notes, or digital databases.\r\nReflection and Synthesis: Connecting new information with what you already know and reflecting on how it applies to your life or work.\r\nApplying: Using your new found knowledge to generate ideas for your work projects or daily life.\r\n\r\n\r\n\r\nFigure 1: The cycle of PKM\r\n\r\n\r\n\r\nHow can PKM help you become a better researcher?\r\nWith the endless flow of information on a daily basis, it is easy to feel completely overwhelmed. Without a clear strategy to manage this influx, it is challenging to retain and apply useful knowledge effectively. For researchers, the importance of managing knowledge cannot be overstated. Effective PKM can transform the way you handle research, from literature review to data analysis. Here is how:\r\nEfficient Literature Review: In research, keeping track of key papers, theories and data is critical. A PKM system allows you to store all your references, annotate papers and create summaries, which can be easily retrieved when writing or planning new research projects.\r\nConnecting Ideas: Research often involves bringing together disparate ideas from various sources. PKM helps you map out connections between theories, studies and ideas, fostering creativity and deeper insights. With everything organized in a central system, you can see links between concepts that might otherwise be overlooked.\r\nStaying Organized: Managing research involves a lot of data, articles and notes. PKM ensures all this information is easily accessible and well-structured, so you can find what you need quickly.\r\nCollaboration and Knowledge Sharing: PKM does not just help you manage your own knowledge; it also makes collaboration easier. With clear organization, you can quickly share insights or resources with colleagues, contributing to a more collaborative research environment.\r\nTime Management: Research can be time-consuming, but PKM can make it more efficient by reducing the time spent on administrative tasks like searching for references or managing data. This gives you more time to focus on analysis and critical thinking.\r\nGetting started with PKM\r\nImplementing a PKM does not have to be complicated. Start small and choose tools that work best for you. Some popular methods include:\r\nNote taking strategies: It is also really important to think about the way you are taking notes! What information are you capturing? Do you have a way to link the notes? Do you differentiate between facts, quotes and emerging ideas? Have a look at the Zettelkasten method.\r\nDigital Tools: There are many apps like Notion, Evernote or Roam hat allow you to capture and organize information in one place, making it easy to track your notes, references and projects. My personal favorite is Obsidian (see below for an illustration).\r\nAI-Powered Tools: With the rise of artificial intelligence, tools like ChatGPT and Notion AI can assist in summarizing articles, generating ideas or even organizing your notes more efficiently. AI can help automate the process of filtering important information, making knowledge management faster and more streamlined. This can free up time for deeper reflection and analysis, allowing you to focus on applying your knowledge rather than managing it.\r\n\r\nAnalog Systems: If you prefer pen and paper, a bullet journal, a notebook or flashcards can be just as effective for organizing your thoughts and ideas.\r\nHybrid Approaches: Combining digital and analog methods can also work, allowing you to capture ideas on the go and organize them later in a more structured format.\r\nHow can it look like in practice?\r\nOne of the most difficult things for me was to admit to myself that my PKM can never be perfect. I started it after I already started working as a researcher and after completing my PhD. Basically, I placed my new, revised PKM on top of my existing way to do literature research and taking notes. In addition, there is simply too much information out there: I will never be able to capture all the information I would like to have.\r\nOnce I made my peace with that, I had to decide for the tools I would to make my PKM efficient. I have adopted a combination of tools and techniques that work well for my own needs as a researcher. It is definitely worth taking some time and really explore the options.\r\nLiterature research: For literature research, I rely on Zotero. The feature I value the most in Zotero is the ability to assign tags easily. Unlike a folder-based system where you have to decide where to file a document (and often find that it fits into multiple categories), Zotero’s tagging system allows me to categorize literature dynamically without forcing it into a rigid structure. In addition, I make use of several AI tools to help streamline my workflow. Tools like Research Rabbit and Consensus are particularly helpful when summarizing articles and exploring new research avenues. AI assistants save time by helping me quickly synthesize key insights from large volumes of text.\r\nNote-taking: When it comes to note-taking, I orient myself around the Zettelkasten method, which emphasizes creating “atomic notes” (small, self-contained ideas) that are linked together via keywords. This approach helps me not only organize my thoughts but also create connections between different pieces of information, which is crucial for deep understanding and research.\r\nOrganization: To manage these notes, I use Obsidian. It’s a free and highly flexible tool that allows me to store all my documents locally, which I prefer over cloud-based options. Obsidian also offers numerous features for linking notes, which is something I use extensively in my workflow (see figure 2 on how the network of linked notes can look like). The ability to create a web of interconnected ideas is, in my opinion, one of the most powerful aspects of knowledge management. There are also plenty of online resources and tutorials that help new users make the most of Obsidian.\r\n\r\n\r\n\r\nFigure 2: The graphical view of the linked notes in Obsidian\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/2024-10-19-pkm/PKM-cycle.png",
-    "last_modified": "2024-10-21T11:12:39+02:00",
+    "last_modified": "2024-10-21T11:23:10+02:00",
     "input_file": {}
   },
   {
     "path": "posts/2024-10-05-creating-an-alluvial-plot-with-r/",
     "title": "Creating an alluvial plot with R",
     "description": {},
-    "author": [
-      {
-        "name": "Lisa Hefele",
-        "url": {}
-      }
-    ],
+    "author": [],
     "date": "2024-10-05",
     "categories": [
       "Data visualization"
     ],
     "contents": "\r\nStep 1: Laod necessary packages\r\n\r\n\r\nlibrary(ggplot2)\r\nlibrary(ggalluvial)\r\nlibrary(dplyr)\r\n\r\n\r\nStep 2: Create a fictional dataset\r\nThis dataset reflects a situation where participants from lower wealth and less educated backgrounds are less likely to be vaccinated. It is completely fictional.\r\n\r\n\r\nset.seed(123)  # For reproducibility\r\n\r\n# Simulate a dataset\r\nn <- 1000  # Number of participants\r\n\r\n# Wealth categories (lower wealth indices are less likely to be vaccinated)\r\nwealth <- factor(sample(c(\"Low\", \"Medium\", \"High\"), n, replace = TRUE, prob = c(0.5, 0.3, 0.2)))\r\n\r\n# Mother's education levels (less educated mothers are less likely to vaccinate)\r\neducation <- factor(sample(c(\"No Education\", \"Primary\", \"Secondary\"), n, replace = TRUE, \r\n                           prob = c(0.5, 0.3, 0.2)))\r\n\r\n# Region is randomly assigned for now\r\nregion <- factor(sample(c(\"North\", \"South\", \"Central\"), n, replace = TRUE))\r\n\r\n# Antenatal care visits (a binary factor)\r\nantenatal_care <- factor(sample(c(\"Yes\", \"No\"), n, replace = TRUE))\r\n\r\n# Define a probability of vaccination based on wealth and education\r\nvaccination_prob <- ifelse(wealth == \"Low\" & education == \"No Education\", 0.2,  # Low wealth and no education\r\n                   ifelse(wealth == \"Low\" & education == \"Primary\", 0.3,       # Low wealth and primary education\r\n                   ifelse(wealth == \"Medium\" & education == \"No Education\", 0.4, # Medium wealth and no education\r\n                   ifelse(wealth == \"Medium\" & education == \"Primary\", 0.6,    # Medium wealth and primary education\r\n                   ifelse(wealth == \"High\" & education == \"No Education\", 0.6, # High wealth and no education\r\n                   0.8)))))  # Higher probability for other combinations\r\n\r\n# Simulate vaccination status based on probability\r\nvaccinated <- factor(rbinom(n, 1, vaccination_prob), labels = c(\"No\", \"Yes\"))\r\n\r\n# Combine into a data frame\r\ndf <- data.frame(wealth, education, region, antenatal_care, vaccinated)\r\n\r\n# View the first few rows of the dataset\r\nhead(df)\r\n\r\n  wealth    education  region antenatal_care vaccinated\r\n1    Low No Education   North            Yes         No\r\n2 Medium      Primary Central            Yes        Yes\r\n3    Low No Education   North            Yes         No\r\n4   High    Secondary   South             No        Yes\r\n5   High    Secondary   South             No        Yes\r\n6    Low No Education   North             No         No\r\n\r\nStep 3: reshape the data\r\n\r\n\r\n# Group by the demographic variables and count occurrences\r\ndf_alluvial <- df %>%\r\n  count(wealth, education, region, antenatal_care, vaccinated)\r\n\r\n# View the data to make sure it's correct\r\nhead(df_alluvial)\r\n\r\n  wealth    education  region antenatal_care vaccinated  n\r\n1   High No Education Central             No         No  4\r\n2   High No Education Central             No        Yes 13\r\n3   High No Education Central            Yes         No  4\r\n4   High No Education Central            Yes        Yes 10\r\n5   High No Education   North             No         No  9\r\n6   High No Education   North             No        Yes 11\r\n\r\nStep 4: Create an alluvial plot\r\nIn an alluvial plot, each “stratum” represents a category of a variable, and the “flows” represent how individuals move between these categories. Here is an example of how to make the plot:\r\n\r\n\r\n# Create the alluvial plot\r\ndf_alluvial %>% \r\n  ggplot(aes(axis1 = wealth, axis2 = education, axis3 = region, axis4 = antenatal_care, y = n)) +\r\n  geom_alluvium(aes(fill = vaccinated), width = 0.2) +  # Moved 'fill' inside aes()\r\n  geom_stratum(width = 0.4, fill = \"white\", color = \"black\") +\r\n  geom_text(stat = \"stratum\", aes(label = after_stat(stratum))) +\r\n  scale_x_discrete(limits = c(\"Wealth\", \"Education\", \"Region\", \"Antenatal Care\"), expand = c(0.15, 0.05)) +\r\n  labs(title = \"Alluvial diagram of vaccination status\",\r\n       y = \"Number of participants\",\r\n       x = \"Demographic variables\") +\r\n  theme_minimal()\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-10-17T21:26:51+02:00",
+    "last_modified": "2024-10-21T11:24:19+02:00",
     "input_file": {}
   },
   {
     "path": "posts/2024-10-13-creating-interactive-maps-in-r-with-tmap/",
     "title": "Creating interactive maps in R with tmap",
     "description": {},
-    "author": [
-      {
-        "name": "Lisa Hefele",
-        "url": {}
-      }
-    ],
+    "author": [],
     "date": "2024-08-31",
     "categories": [
       "Data visualization"
     ],
     "contents": "\r\nIn this tutorial, we will walk through how to create an interactive map of Laos and its neighboring countries using the tmap package in R. Tmap is a powerful tool for both static and interactive thematic maps. By the end of this tutorial, you will have a map you can zoom in and out of, showing Laos and its neighbors.\r\nStep 1: Install and load necessary packages\r\nFirst, we need to load the necessary libraries. We will use tmap for creating the map, sf for handling spatial data, and rnaturalearth to get country boundary data.\r\n\r\n\r\n# Install required packages if not already installed\r\n# install.packages(c(\"tmap\", \"tmaptools\", \"sf\", \"rnaturalearth\"))\r\n\r\n# Load the libraries\r\nlibrary(tmap)\r\nlibrary(tmaptools)\r\nlibrary(sf)\r\nlibrary(rnaturalearthdata)\r\n\r\n\r\nThe sf package is a widely-used tool for handling geographic data in R, while tmap allows us to create both static and interactive maps. Finally, we’ll use rnaturalearth to easily access Natural Earth’s open country boundary dataset.\r\nStep 2: Obtain the country boundaries\r\nNext, we will download and prepare the spatial data for the countries in our region of interest. The rnaturalearth package lets us pull country boundary data at different scales. For this tutorial, we’ll use the “medium” scale for a good balance between detail and file size.\r\n\r\n\r\n# Obtain the country boundaries\r\n# We will use rnaturalearth to download country boundary data\r\ncountries <- rnaturalearth::ne_countries(scale = \"medium\", returnclass = \"sf\")\r\n\r\n\r\nHere, the function ne_countries() fetches the spatial data for all the countries in the world.\r\nStep 3: Filter for Laos and the neighboring countries\r\nWe now need to focus on Laos and its neighboring countries. We will use the dplyr-like syntax provided by sf to filter out only the countries of interest: Laos, Vietnam, Thailand, Cambodia, China, and Myanmar.\r\n\r\n\r\n# Filter for Laos and its neighboring countries\r\n# Define a vector of countries of interest\r\ncountries_of_interest <- c(\"Laos\", \"Vietnam\", \"Thailand\", \"Cambodia\", \"China\", \"Myanmar\")\r\n\r\n# Filter the data to keep only those countries\r\nlaos_neighbors <- countries[countries$name %in% countries_of_interest, ]\r\n\r\n\r\nBy filtering the country boundaries data, we create a new dataset that contains only the geographic shapes of Laos and its neighbors. This keeps our map focused and less cluttered.\r\nStep 4: Create an interactive map\r\nNow it is time to build the interactive map! Tmap allows us to switch between static and interactive modes with tmap_mode(). By setting the mode to “view”, we can make the map interactive.\r\n\r\n\r\n# Create the interactive map\r\n# Set tmap mode to view (for interactive maps)\r\ntmap_mode(\"view\")\r\n\r\n# Create the map with tmap\r\ntm_shape(laos_neighbors) + \r\n  tm_polygons(\"name\", border.col = \"black\", lwd = 2) +  # Draw country borders\r\n  tm_text(\"name\", size = 0.7, col = \"darkblue\", auto.placement = TRUE) +  # Add country names\r\n  tm_style(\"classic\") +  # Use a classic map style\r\n  tm_basemap(\"OpenStreetMap\")  # Use OpenStreetMap as the background\r\n\r\n\r\n\r\nHere’s what happens in this step:\r\ntm_shape() specifies the geographic data we want to map (in this case, the countries of interest).\r\ntm_polygons() draws the polygons representing country borders and fills them.\r\ntm_text() adds country names directly on the map.\r\ntm_style() allows us to style the map. We use the “classic” style here.\r\ntm_basemap() adds an OpenStreetMap layer as the map background to give context and details to the geographic features.\r\nStep 5: Switching back to plot mode\r\nWhen working with multiple maps, it is useful to switch back to plot mode (for static maps) after you create an interactive map. This prevents other maps from being rendered interactively by default.\r\n\r\n\r\n# Switch back to plot mode after the interactive map\r\ntmap_mode(\"plot\")\r\n\r\n\r\nConclusion\r\nWith just a few lines of code, you can create an interactive map of Laos and its neighboring countries, giving you a dynamic tool for exploring geographic data. This method can be extended to any region or customized with additional layers, such as demographic or health data.\r\nNow you can experiment with different basemaps or country selections to fit your own data visualization needs!\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-10-13T21:05:50+02:00",
+    "last_modified": "2024-10-21T11:27:09+02:00",
     "input_file": {}
   },
   {
     "path": "posts/2024-05-05-paper-hcv/",
     "title": "High exposure to hepatitis C virus in Saravan, southern Laos: Identification of several risk practices",
     "description": {},
-    "author": [
-      {
-        "name": "Lisa Hefele",
-        "url": {}
-      }
-    ],
+    "author": [],
     "date": "2024-05-18",
     "categories": [
       "Research",
@@ -73,39 +53,29 @@
     ],
     "contents": "\r\nHepatitis C Virus risk factors study in Southern Laos\r\nIn a follow-up study conducted in Samuoi district, Saravan province, southern Laos, we investigated the prevalence and risk factors of hepatitis C virus (HCV) infection. Our findings revealed a high seropositivity rate, with 39.8% of participants testing positive for HCV antibodies. Notably, non-sterile medical practices, including the use of re-used syringes (72.5%) and unlicensed parenteral treatments (58%), were common. Tattoos and accidental blood exposure were significantly associated with HCV infection. This study underscores the urgent need for community-wide HCV testing and awareness campaigns to reduce transmission risks. Further viral sequencing is ongoing to enhance our understanding of HCV epidemiology in the region.\r\nFor more details, you can access the full paper here.\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-10-13T12:36:56+02:00",
+    "last_modified": "2024-10-21T11:31:07+02:00",
     "input_file": {}
   },
   {
     "path": "posts/2024-05-05-paper-mics/",
     "title": "Factors associated with hepatitis B vaccination in Laos: findings from the multiple indicator cluster surveys in 2011/12 and 2017",
     "description": {},
-    "author": [
-      {
-        "name": "Lisa Hefele",
-        "url": {}
-      }
-    ],
+    "author": [],
     "date": "2024-05-05",
     "categories": [
       "Research",
       "Publications"
     ],
     "contents": "\r\nHighlights\r\nThis study uses data from the most recent multiple indicator cluster survey (MICS) which is designed to provide comprehensive data on child and maternal health. The data is nationally representative. We provide relevant information regarding hepatitis B vaccination coverage rates in Laos in children under two years of age and investigated demographic and socioeconomic factors that affect hepatitis B vaccination coverage rates.\r\nFor more details, you can access the full paper here.\r\nThe code supporting the article can be found here.\r\n\r\n\r\n\r\nFigure 1: Estimated hepatitis B vaccination coverage in Laos (weighted proportions) among children. For the combination vaccines in 2011/12, we did not distinguish between the numbers of doses received. The map was created in R (see supplement information). The shapefiles containing the administrative boundaries of Lao PDR from 2012 were obtained from the International Steering Committee for Global Mapping (retrieved from https://maps.princeton.edu/catalog/stanford-cp768st2071). The shapefiles containing the administrative boundaries of the Laos in 2017 were obtained from the Humanitarian Data Exchange website (https://data.humdata.org/dataset/lao-admin-boundaries, dataset provided by the National Geographic Department of Lao PDR, 2019). Projection used: EPSG 4326 –WGS 84. Reprinted with permission from Dekker et al., 2024\r\n\r\n\r\n\r\nAbstract\r\nBackground\r\nWithin Laos, the vaccination coverage rates with the monovalent hepatitis B birth dose vaccine and hepatitis B antigen-containing combination vaccines remain stagnant with 75% and 64%, respectively, in 2021. In this study, we used data from the Multiple Indicator Cluster Surveys to identify possible factors that represent barriers for receiving these childhood vaccinations.\r\nMethods\r\nData from the Multiple Indicator Cluster Surveys in 2011/12 and 2017 were analysed to examine factors associated with receiving the hepatitis B-containing vaccines using regression modelling. Data analyses were conducted in R.\r\nFindings\r\nIn 2011/12, the weight-adjusted coverage rate for receiving the hepatitis B birth dose was 48%, while the coverage with the hepatitis B antigen-containing combination vaccine was 55.1% based on both vaccination documents and recall; compared to 69.3% and 59.4% respectively in 2017. Ethno-linguistic group, maternal education, healthcare utilization and wealth were associated with receiving the vaccinations against hepatitis B.\r\nInterpretation\r\nNational estimates of vaccination coverage rates can conceal country-specific regional or socio-economic variations. Children from Hmong-Mien households, from less wealthier households and whose mothers were less educated and were not able to or did not utilize healthcare were identified as being less likely to receive the vaccinations. These findings indicate the need for improving access to healthcare, in particular for minority groups.\r\n\r\n\r\n\r\n",
-    "preview": "posts/2024-05-05-paper-mics/map-hepb-vac.jpg",
-    "last_modified": "2024-10-15T20:39:03+02:00",
+    "preview": "posts/2024-05-05-paper-mics/distill-preview.png",
+    "last_modified": "2024-10-21T11:30:06+02:00",
     "input_file": {}
   },
   {
     "path": "posts/2024-05-05-paper-typhoid-fever/",
     "title": "Unveiling serological markers for enteric fever: A step toward better surveillance",
     "description": {},
-    "author": [
-      {
-        "name": "Lisa Hefele",
-        "url": {}
-      }
-    ],
+    "author": [],
     "date": "2024-05-05",
     "categories": [
       "Research",
@@ -113,7 +83,7 @@
     ],
     "contents": "\r\nEnteric fever, caused by Salmonella enterica serovars Typhi and Paratyphi A, is a significant public health issue, especially in low- and middle-income countries. However, current diagnostic methods often underestimate its true burden. In our latest study, we aimed to explore whether tracking the body’s immune response to specific bacterial antigens could help improve how we measure the incidence of enteric fever.\r\nWhat We Did\r\nWe collected plasma samples from patients who were confirmed to have enteric fever via blood cultures, along with febrile patients who tested negative for blood cultures and a group of healthy community members. Using a carefully selected panel of 17 antigens, we measured the antibody responses over three months through ELISA tests.\r\nWhat We Found\r\nInterestingly, the immune responses (antibody levels) were mostly similar between all groups for most of the antigens. However, we identified a few key differences:\r\n- Patients with confirmed enteric fever showed elevated IgG responses to certain antigens (STY1479/YncE, STY1886/CdtB, STY1498/HlyE, and serovar-specific O2 and O9 antigens) over time compared to controls. This suggested seroconversion, a strong sign of exposure to the disease.\r\n\r\n\r\n\r\nFigure 1: The longitudinal IgG responses against Salmonella Typhi or S. Paratyphi A purified antigens in a Nepali cohort of febrile patients. IgG antibody responses against O2 (A), O9 (B), STY1498 (C), Vi (D), STY1479 (E), and STY1886 (F) over the course of 3 months in different patient groups. Grey lines show antibody trajectories in individual patients and the solid bold line shows the fitted LOESS smooth function. Dashed lines represent the mean titer value within the control group of afebrile, community control samples for the respective antibody. Abbreviations: ELISA, enzyme-linked immunosorbent assay; FCN, culture negative febrile patients; IgG, immunoglobulin G; SPA, S. Paratyphi A confirmed patients; ST, S. Typhi-confirmed patients.. Reprinted with permission from Mylona et al., 2024\r\n\r\n\r\n\r\nWhy It Matters\r\nThese findings are exciting because they point to a potential set of antigens that could be used to improve enteric fever surveillance. By developing more sensitive and scalable methods, we can better monitor the spread of enteric fever, which could ultimately guide vaccine policies and public health interventions.\r\nOur study highlights the importance of continued research into identifying reliable biomarkers for infectious diseases like enteric fever, as it has the potential to lead to more accurate and widespread detection methods.\r\nFor more details, you can access the full paper here.\r\n\r\n\r\n\r\n",
     "preview": "posts/2024-05-05-paper-typhoid-fever/longitudinal-tf.jpg",
-    "last_modified": "2024-10-20T11:51:41+02:00",
+    "last_modified": "2024-10-21T11:23:38+02:00",
     "input_file": {}
   }
 ]

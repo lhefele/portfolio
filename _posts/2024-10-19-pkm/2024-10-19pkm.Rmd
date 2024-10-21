@@ -1,8 +1,5 @@
 ---
 title: "Personal Knowledge Management for beginners"
-author:
-  - name: Lisa Hefele
-    url: {}
 date: 2024-10-19
 categories: ["Knowledge management"]
 output:

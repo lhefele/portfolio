@@ -1,8 +1,5 @@
 ---
 title: "Unveiling serological markers for enteric fever: A step toward better surveillance"
-author:
-  - name: Lisa Hefele
-    url: {}
 date: 2024-05-05
 categories: ["Research", "Publications"]
 output:

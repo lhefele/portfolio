@@ -1,14 +1,10 @@
 ---
 title: "Factors associated with hepatitis B vaccination in Laos: findings from the multiple indicator cluster surveys in 2011/12 and 2017"
-
-author:
-  - name: Lisa Hefele
-    url: 
 date: 2024-05-05
 categories: ["Research", "Publications"]
 output:
   distill::distill_article:
-    self_contained: false
+    self_contained: true
 ---
 
 

@@ -1,9 +1,5 @@
 ---
 title: "High exposure to hepatitis C virus in Saravan, southern Laos: Identification of several risk practices"
-
-author:
-  - name: Lisa Hefele
-    url: 
 date: 2024-05-18
 categories: ["Research", "Publications"]
 output:

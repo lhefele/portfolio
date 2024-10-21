@@ -1,8 +1,5 @@
 ---
 title: "Creating an alluvial plot with R"
-author:
-  - name: Lisa Hefele
-    url: {}
 date: 2024-10-05
 categories: ["Data visualization"]
 output:
