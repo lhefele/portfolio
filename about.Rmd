@@ -41,7 +41,7 @@ My research interests encompass infectious diseases, epidemiological methods, im
 London School of Hygiene and Tropical Medicine, UK
 
 
-**Ph.D. in Natural Sciences (Dr. rer. nat.)** | 2016-2020, date of defense: 28.04.2022<br>
+**Ph.D. in Natural Sciences (Dr. rer. nat.)** | 2020, date of defense: 28.04.2022<br>
 Luxembourg Institute of Health, Luxembourg | Saarland University, Germany<br>
 Thesis: _Epidemiological and serological investigations of vaccine‑preventable diseases and their implications for vaccination policy in the Lao People’s Democratic Republic_
 
@@ -57,11 +57,13 @@ University of Erlangen-Nuremberg, Germany
 
 ### Research skills
  - Epidemiological study design
+ - Digital data collection (REDCap, Kobotoolbox)
  - Project management
- - Reproducible research
+ - Data analysis
  - Scientific writing 
  - Science communication
- - Digital data collection (REDCap, Kobotoolbox)
+ - Reproducible research
+
  
  
 ### Data analysis techniques
@@ -79,6 +81,8 @@ University of Erlangen-Nuremberg, Germany
  - Github (intermediate)
  - Stata (intermediate)
  - QGIS (intermediate)
+ - Python (beginner)
+ - Julia (beginner)
  
  
  
